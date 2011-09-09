@@ -9,6 +9,19 @@ Author URI: http://hyperspatial.com
 License: GPL2
 */
 
+class BaseClass {
+   function __construct() {
+       print "In BaseClass constructor\n";
+   }
+}
+
+class SubClass extends BaseClass {
+   function __construct() {
+       parent::__construct();
+       print "In SubClass constructor\n";
+   }
+}
+
 class HypLazyLoader{
 	private static $constructed;
 	private $autoload,$element,$element_id,$offset,$limit,$path,$query,$query_array,$commands,$commands_array;
