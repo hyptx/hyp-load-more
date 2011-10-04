@@ -9,7 +9,7 @@ Author URI: http://hyperspatial.com
 License: GPL2
 */
 
-/* HypLoadMore Class - siri boo
+/* HypLoadMore Class - siri boo moo
 *  Instantiate in the static php file */
 class HypLoadMore{
 	protected static $constructed;
