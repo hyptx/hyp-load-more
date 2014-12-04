@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: HypLoadMore
-Plugin URI: http://hyperspatial.com
+Plugin URI: https://github.com/hyptx/hyp-load-more
 Description: An ajax content loading system for adding content dynamically
 Version: 1.0
 Author: Adam J Nowak
